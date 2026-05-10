@@ -10,19 +10,19 @@
 -- Instances: 99 | Scripts: 34 | Modules: 0 | Tags: 0
 local G2L = {};
 
--- StarterGui.Razor Executor
+-- StarterPack.Razor Universal
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["Name"] = [[Razor Executor]];
+G2L["1"]["Name"] = [[Razor Universal]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
 
 
--- StarterGui.Razor Executor.Initialization Script
+-- StarterPack.Razor Universal.Initialization Script
 G2L["2"] = Instance.new("LocalScript", G2L["1"]);
 G2L["2"]["Name"] = [[Initialization Script]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client
+-- StarterPack.Razor Universal.Razor Universal Client
 G2L["3"] = Instance.new("Frame", G2L["1"]);
 G2L["3"]["BorderSizePixel"] = 0;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(41, 41, 41);
@@ -31,12 +31,12 @@ G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3"]["Name"] = [[Razor Universal Client]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.UIDragDetector
+-- StarterPack.Razor Universal.Razor Universal Client.UIDragDetector
 G2L["4"] = Instance.new("UIDragDetector", G2L["3"]);
 
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar
 G2L["5"] = Instance.new("Frame", G2L["3"]);
 G2L["5"]["ZIndex"] = 25;
 G2L["5"]["BorderSizePixel"] = 0;
@@ -46,7 +46,7 @@ G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5"]["Name"] = [[upperbar]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.title
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.title
 G2L["6"] = Instance.new("TextLabel", G2L["5"]);
 G2L["6"]["TextWrapped"] = true;
 G2L["6"]["ZIndex"] = 26;
@@ -63,7 +63,7 @@ G2L["6"]["Name"] = [[title]];
 G2L["6"]["Position"] = UDim2.new(0, 0, 0.28986, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Close
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Close
 G2L["7"] = Instance.new("TextButton", G2L["5"]);
 G2L["7"]["TextWrapped"] = true;
 G2L["7"]["BorderSizePixel"] = 0;
@@ -81,12 +81,12 @@ G2L["7"]["Name"] = [[Close]];
 G2L["7"]["Position"] = UDim2.new(0.924, 0, 0.03448, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Close.close
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Close.close
 G2L["8"] = Instance.new("LocalScript", G2L["7"]);
 G2L["8"]["Name"] = [[close]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Minimize
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Minimize
 G2L["9"] = Instance.new("TextButton", G2L["5"]);
 G2L["9"]["TextWrapped"] = true;
 G2L["9"]["BorderSizePixel"] = 0;
@@ -104,17 +104,17 @@ G2L["9"]["Name"] = [[Minimize]];
 G2L["9"]["Position"] = UDim2.new(0.842, 0, 0.03448, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Minimize.min
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Minimize.min
 G2L["a"] = Instance.new("LocalScript", G2L["9"]);
 G2L["a"]["Name"] = [[min]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Minimized
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Minimized
 G2L["b"] = Instance.new("BoolValue", G2L["5"]);
 G2L["b"]["Name"] = [[Minimized]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.InputShield
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.InputShield
 G2L["c"] = Instance.new("Frame", G2L["5"]);
 G2L["c"]["Visible"] = false;
 G2L["c"]["Active"] = true;
@@ -127,7 +127,7 @@ G2L["c"]["Name"] = [[InputShield]];
 G2L["c"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2
+-- StarterPack.Razor Universal.Razor Universal Client.options2
 G2L["d"] = Instance.new("ScrollingFrame", G2L["3"]);
 G2L["d"]["Active"] = true;
 G2L["d"]["BorderSizePixel"] = 0;
@@ -140,7 +140,7 @@ G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.esp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.esp
 G2L["e"] = Instance.new("TextButton", G2L["d"]);
 G2L["e"]["TextWrapped"] = true;
 G2L["e"]["BorderSizePixel"] = 0;
@@ -156,12 +156,12 @@ G2L["e"]["Name"] = [[esp]];
 G2L["e"]["Position"] = UDim2.new(0.07407, 0, 0.01298, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.esp.esp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.esp.esp
 G2L["f"] = Instance.new("LocalScript", G2L["e"]);
 G2L["f"]["Name"] = [[esp]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.tracers
+-- StarterPack.Razor Universal.Razor Universal Client.options2.tracers
 G2L["10"] = Instance.new("TextButton", G2L["d"]);
 G2L["10"]["TextWrapped"] = true;
 G2L["10"]["BorderSizePixel"] = 0;
@@ -177,12 +177,12 @@ G2L["10"]["Name"] = [[tracers]];
 G2L["10"]["Position"] = UDim2.new(0.07407, 0, 0.04498, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.tracers.tracers
+-- StarterPack.Razor Universal.Razor Universal Client.options2.tracers.tracers
 G2L["11"] = Instance.new("LocalScript", G2L["10"]);
 G2L["11"]["Name"] = [[tracers]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fly
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fly
 G2L["12"] = Instance.new("TextButton", G2L["d"]);
 G2L["12"]["TextWrapped"] = true;
 G2L["12"]["BorderSizePixel"] = 0;
@@ -198,12 +198,12 @@ G2L["12"]["Name"] = [[fly]];
 G2L["12"]["Position"] = UDim2.new(0.07407, 0, 0.07598, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fly.fly
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fly.fly
 G2L["13"] = Instance.new("LocalScript", G2L["12"]);
 G2L["13"]["Name"] = [[fly]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walk speed
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walk speed
 G2L["14"] = Instance.new("TextButton", G2L["d"]);
 G2L["14"]["TextWrapped"] = true;
 G2L["14"]["BorderSizePixel"] = 0;
@@ -219,14 +219,13 @@ G2L["14"]["Name"] = [[walk speed]];
 G2L["14"]["Position"] = UDim2.new(0.07716, 0, 0.20398, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walk speed.walkspeed
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walk speed.walkspeed
 G2L["15"] = Instance.new("LocalScript", G2L["14"]);
 G2L["15"]["Name"] = [[walkspeed]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walk speed.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walk speed.TextBox
 G2L["16"] = Instance.new("TextBox", G2L["14"]);
-G2L["16"]["CursorPosition"] = -1;
 G2L["16"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["16"]["ZIndex"] = 2;
 G2L["16"]["BorderSizePixel"] = 0;
@@ -242,7 +241,7 @@ G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["16"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jump power
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jump power
 G2L["17"] = Instance.new("TextButton", G2L["d"]);
 G2L["17"]["TextWrapped"] = true;
 G2L["17"]["BorderSizePixel"] = 0;
@@ -258,14 +257,13 @@ G2L["17"]["Name"] = [[jump power]];
 G2L["17"]["Position"] = UDim2.new(0.07716, 0, 0.23498, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jump power.jumppower
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jump power.jumppower
 G2L["18"] = Instance.new("LocalScript", G2L["17"]);
 G2L["18"]["Name"] = [[jumppower]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jump power.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jump power.TextBox
 G2L["19"] = Instance.new("TextBox", G2L["17"]);
-G2L["19"]["CursorPosition"] = -1;
 G2L["19"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["19"]["ZIndex"] = 2;
 G2L["19"]["BorderSizePixel"] = 0;
@@ -281,7 +279,7 @@ G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["19"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.teleport
+-- StarterPack.Razor Universal.Razor Universal Client.options2.teleport
 G2L["1a"] = Instance.new("TextButton", G2L["d"]);
 G2L["1a"]["TextWrapped"] = true;
 G2L["1a"]["BorderSizePixel"] = 0;
@@ -297,14 +295,13 @@ G2L["1a"]["Name"] = [[teleport]];
 G2L["1a"]["Position"] = UDim2.new(0.08333, 0, 0.43398, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.teleport.teleport
+-- StarterPack.Razor Universal.Razor Universal Client.options2.teleport.teleport
 G2L["1b"] = Instance.new("LocalScript", G2L["1a"]);
 G2L["1b"]["Name"] = [[teleport]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.teleport.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.teleport.TextBox
 G2L["1c"] = Instance.new("TextBox", G2L["1a"]);
-G2L["1c"]["CursorPosition"] = -1;
 G2L["1c"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1c"]["ZIndex"] = 2;
 G2L["1c"]["BorderSizePixel"] = 0;
@@ -320,7 +317,7 @@ G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1c"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fling
 G2L["1d"] = Instance.new("TextButton", G2L["d"]);
 G2L["1d"]["TextWrapped"] = true;
 G2L["1d"]["BorderSizePixel"] = 0;
@@ -336,14 +333,13 @@ G2L["1d"]["Name"] = [[fling]];
 G2L["1d"]["Position"] = UDim2.new(0.08333, 0, 0.46398, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fling.fling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fling.fling
 G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
 G2L["1e"]["Name"] = [[fling]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fling.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fling.TextBox
 G2L["1f"] = Instance.new("TextBox", G2L["1d"]);
-G2L["1f"]["CursorPosition"] = -1;
 G2L["1f"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1f"]["ZIndex"] = 2;
 G2L["1f"]["BorderSizePixel"] = 0;
@@ -359,7 +355,7 @@ G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1f"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.void
+-- StarterPack.Razor Universal.Razor Universal Client.options2.void
 G2L["20"] = Instance.new("TextButton", G2L["d"]);
 G2L["20"]["TextWrapped"] = true;
 G2L["20"]["BorderSizePixel"] = 0;
@@ -375,14 +371,13 @@ G2L["20"]["Name"] = [[void]];
 G2L["20"]["Position"] = UDim2.new(0.08333, 0, 0.49598, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.void.void
+-- StarterPack.Razor Universal.Razor Universal Client.options2.void.void
 G2L["21"] = Instance.new("LocalScript", G2L["20"]);
 G2L["21"]["Name"] = [[void]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.void.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.void.TextBox
 G2L["22"] = Instance.new("TextBox", G2L["20"]);
-G2L["22"]["CursorPosition"] = -1;
 G2L["22"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["22"]["ZIndex"] = 2;
 G2L["22"]["BorderSizePixel"] = 0;
@@ -398,7 +393,7 @@ G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["22"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.noclip
+-- StarterPack.Razor Universal.Razor Universal Client.options2.noclip
 G2L["23"] = Instance.new("TextButton", G2L["d"]);
 G2L["23"]["TextWrapped"] = true;
 G2L["23"]["BorderSizePixel"] = 0;
@@ -414,12 +409,12 @@ G2L["23"]["Name"] = [[noclip]];
 G2L["23"]["Position"] = UDim2.new(0.07099, 0, 0.10898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.noclip.noclip
+-- StarterPack.Razor Universal.Razor Universal Client.options2.noclip.noclip
 G2L["24"] = Instance.new("LocalScript", G2L["23"]);
 G2L["24"]["Name"] = [[noclip]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.labeled
+-- StarterPack.Razor Universal.Razor Universal Client.options2.labeled
 G2L["25"] = Instance.new("TextLabel", G2L["d"]);
 G2L["25"]["TextWrapped"] = true;
 G2L["25"]["ZIndex"] = 2;
@@ -436,7 +431,7 @@ G2L["25"]["Name"] = [[labeled]];
 G2L["25"]["Position"] = UDim2.new(0.20409, 0, 0.38898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.joinplayer
+-- StarterPack.Razor Universal.Razor Universal Client.options2.joinplayer
 G2L["26"] = Instance.new("TextButton", G2L["d"]);
 G2L["26"]["TextWrapped"] = true;
 G2L["26"]["BorderSizePixel"] = 0;
@@ -452,14 +447,13 @@ G2L["26"]["Name"] = [[joinplayer]];
 G2L["26"]["Position"] = UDim2.new(0.08025, 0, 0.55998, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.joinplayer.joinplayer
+-- StarterPack.Razor Universal.Razor Universal Client.options2.joinplayer.joinplayer
 G2L["27"] = Instance.new("LocalScript", G2L["26"]);
 G2L["27"]["Name"] = [[joinplayer]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.joinplayer.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.joinplayer.TextBox
 G2L["28"] = Instance.new("TextBox", G2L["26"]);
-G2L["28"]["CursorPosition"] = -1;
 G2L["28"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["28"]["ZIndex"] = 2;
 G2L["28"]["BorderSizePixel"] = 0;
@@ -476,9 +470,8 @@ G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["28"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.joinplayer.TextBox1
+-- StarterPack.Razor Universal.Razor Universal Client.options2.joinplayer.TextBox1
 G2L["29"] = Instance.new("TextBox", G2L["26"]);
-G2L["29"]["CursorPosition"] = -1;
 G2L["29"]["Name"] = [[TextBox1]];
 G2L["29"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["29"]["ZIndex"] = 2;
@@ -496,7 +489,7 @@ G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["29"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.godmode
+-- StarterPack.Razor Universal.Razor Universal Client.options2.godmode
 G2L["2a"] = Instance.new("TextButton", G2L["d"]);
 G2L["2a"]["TextWrapped"] = true;
 G2L["2a"]["BorderSizePixel"] = 0;
@@ -512,12 +505,12 @@ G2L["2a"]["Name"] = [[godmode]];
 G2L["2a"]["Position"] = UDim2.new(0.07099, 0, 0.14098, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.godmode.godmode
+-- StarterPack.Razor Universal.Razor Universal Client.options2.godmode.godmode
 G2L["2b"] = Instance.new("LocalScript", G2L["2a"]);
 G2L["2b"]["Name"] = [[godmode]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.xray
+-- StarterPack.Razor Universal.Razor Universal Client.options2.xray
 G2L["2c"] = Instance.new("TextButton", G2L["d"]);
 G2L["2c"]["TextWrapped"] = true;
 G2L["2c"]["BorderSizePixel"] = 0;
@@ -533,12 +526,12 @@ G2L["2c"]["Name"] = [[xray]];
 G2L["2c"]["Position"] = UDim2.new(0.07099, 0, 0.17198, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.xray.xray
+-- StarterPack.Razor Universal.Razor Universal Client.options2.xray.xray
 G2L["2d"] = Instance.new("LocalScript", G2L["2c"]);
 G2L["2d"]["Name"] = [[xray]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.bring
+-- StarterPack.Razor Universal.Razor Universal Client.options2.bring
 G2L["2e"] = Instance.new("TextButton", G2L["d"]);
 G2L["2e"]["TextWrapped"] = true;
 G2L["2e"]["BorderSizePixel"] = 0;
@@ -554,14 +547,13 @@ G2L["2e"]["Name"] = [[bring]];
 G2L["2e"]["Position"] = UDim2.new(0.08333, 0, 0.52798, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.bring.bring
+-- StarterPack.Razor Universal.Razor Universal Client.options2.bring.bring
 G2L["2f"] = Instance.new("LocalScript", G2L["2e"]);
 G2L["2f"]["Name"] = [[bring]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.bring.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.bring.TextBox
 G2L["30"] = Instance.new("TextBox", G2L["2e"]);
-G2L["30"]["CursorPosition"] = -1;
 G2L["30"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["30"]["ZIndex"] = 2;
 G2L["30"]["BorderSizePixel"] = 0;
@@ -577,7 +569,7 @@ G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["30"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.goto pos
+-- StarterPack.Razor Universal.Razor Universal Client.options2.goto pos
 G2L["31"] = Instance.new("TextButton", G2L["d"]);
 G2L["31"]["TextWrapped"] = true;
 G2L["31"]["BorderSizePixel"] = 0;
@@ -593,12 +585,12 @@ G2L["31"]["Name"] = [[goto pos]];
 G2L["31"]["Position"] = UDim2.new(0.08333, 0, 0.59298, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.goto pos.goto
+-- StarterPack.Razor Universal.Razor Universal Client.options2.goto pos.goto
 G2L["32"] = Instance.new("LocalScript", G2L["31"]);
 G2L["32"]["Name"] = [[goto]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.goto pos.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.goto pos.TextBox
 G2L["33"] = Instance.new("TextBox", G2L["31"]);
 G2L["33"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["33"]["ZIndex"] = 2;
@@ -615,7 +607,7 @@ G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["33"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.click2tp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.click2tp
 G2L["34"] = Instance.new("TextButton", G2L["d"]);
 G2L["34"]["TextWrapped"] = true;
 G2L["34"]["BorderSizePixel"] = 0;
@@ -631,12 +623,12 @@ G2L["34"]["Name"] = [[click2tp]];
 G2L["34"]["Position"] = UDim2.new(0.07099, 0, 0.33498, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.click2tp.click2tp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.click2tp.click2tp
 G2L["35"] = Instance.new("LocalScript", G2L["34"]);
 G2L["35"]["Name"] = [[click2tp]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.labeled
+-- StarterPack.Razor Universal.Razor Universal Client.options2.labeled
 G2L["36"] = Instance.new("TextLabel", G2L["d"]);
 G2L["36"]["TextWrapped"] = true;
 G2L["36"]["ZIndex"] = 2;
@@ -653,7 +645,7 @@ G2L["36"]["Name"] = [[labeled]];
 G2L["36"]["Position"] = UDim2.new(0.21026, 0, 0.64998, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.spectate
+-- StarterPack.Razor Universal.Razor Universal Client.options2.spectate
 G2L["37"] = Instance.new("TextButton", G2L["d"]);
 G2L["37"]["TextWrapped"] = true;
 G2L["37"]["BorderSizePixel"] = 0;
@@ -669,14 +661,13 @@ G2L["37"]["Name"] = [[spectate]];
 G2L["37"]["Position"] = UDim2.new(0.08333, 0, 0.62598, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.spectate.spectate
+-- StarterPack.Razor Universal.Razor Universal Client.options2.spectate.spectate
 G2L["38"] = Instance.new("LocalScript", G2L["37"]);
 G2L["38"]["Name"] = [[spectate]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.spectate.TextBox
+-- StarterPack.Razor Universal.Razor Universal Client.options2.spectate.TextBox
 G2L["39"] = Instance.new("TextBox", G2L["37"]);
-G2L["39"]["CursorPosition"] = -1;
 G2L["39"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["39"]["ZIndex"] = 2;
 G2L["39"]["BorderSizePixel"] = 0;
@@ -692,7 +683,7 @@ G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["39"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.rejoin
+-- StarterPack.Razor Universal.Razor Universal Client.options2.rejoin
 G2L["3a"] = Instance.new("TextButton", G2L["d"]);
 G2L["3a"]["TextWrapped"] = true;
 G2L["3a"]["BorderSizePixel"] = 0;
@@ -708,12 +699,12 @@ G2L["3a"]["Name"] = [[rejoin]];
 G2L["3a"]["Position"] = UDim2.new(0.07099, 0, 0.26798, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.rejoin.rejoin
+-- StarterPack.Razor Universal.Razor Universal Client.options2.rejoin.rejoin
 G2L["3b"] = Instance.new("LocalScript", G2L["3a"]);
 G2L["3b"]["Name"] = [[rejoin]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.antifling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.antifling
 G2L["3c"] = Instance.new("TextButton", G2L["d"]);
 G2L["3c"]["TextWrapped"] = true;
 G2L["3c"]["BorderSizePixel"] = 0;
@@ -729,12 +720,12 @@ G2L["3c"]["Name"] = [[antifling]];
 G2L["3c"]["Position"] = UDim2.new(0.07099, 0, 0.30098, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.antifling.antifling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.antifling.antifling
 G2L["3d"] = Instance.new("LocalScript", G2L["3c"]);
 G2L["3d"]["Name"] = [[antifling]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.animpack
+-- StarterPack.Razor Universal.Razor Universal Client.options2.animpack
 G2L["3e"] = Instance.new("TextButton", G2L["d"]);
 G2L["3e"]["TextWrapped"] = true;
 G2L["3e"]["BorderSizePixel"] = 0;
@@ -750,30 +741,29 @@ G2L["3e"]["Name"] = [[animpack]];
 G2L["3e"]["Position"] = UDim2.new(0.08025, 0, 0.68898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.animpack.TextBox
-G2L["3f"] = Instance.new("TextBox", G2L["3e"]);
-G2L["3f"]["CursorPosition"] = -1;
-G2L["3f"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3f"]["ZIndex"] = 2;
-G2L["3f"]["BorderSizePixel"] = 0;
-G2L["3f"]["TextWrapped"] = true;
-G2L["3f"]["TextSize"] = 17;
-G2L["3f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3f"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["3f"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["3f"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3f"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.animpack.animpack
+G2L["3f"] = Instance.new("LocalScript", G2L["3e"]);
+G2L["3f"]["Name"] = [[animpack]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.animpack.animpack
-G2L["40"] = Instance.new("LocalScript", G2L["3e"]);
-G2L["40"]["Name"] = [[animpack]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.animpack.TextBox
+G2L["40"] = Instance.new("TextBox", G2L["3e"]);
+G2L["40"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["40"]["ZIndex"] = 2;
+G2L["40"]["BorderSizePixel"] = 0;
+G2L["40"]["TextWrapped"] = true;
+G2L["40"]["TextSize"] = 17;
+G2L["40"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["40"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["40"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["40"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["40"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["40"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["40"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["40"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walkanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walkanim
 G2L["41"] = Instance.new("TextButton", G2L["d"]);
 G2L["41"]["TextWrapped"] = true;
 G2L["41"]["BorderSizePixel"] = 0;
@@ -789,30 +779,29 @@ G2L["41"]["Name"] = [[walkanim]];
 G2L["41"]["Position"] = UDim2.new(0.08333, 0, 0.71898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walkanim.TextBox
-G2L["42"] = Instance.new("TextBox", G2L["41"]);
-G2L["42"]["CursorPosition"] = -1;
-G2L["42"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["42"]["ZIndex"] = 2;
-G2L["42"]["BorderSizePixel"] = 0;
-G2L["42"]["TextWrapped"] = true;
-G2L["42"]["TextSize"] = 17;
-G2L["42"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["42"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["42"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["42"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["42"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["42"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["42"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walkanim.walkanim
+G2L["42"] = Instance.new("LocalScript", G2L["41"]);
+G2L["42"]["Name"] = [[walkanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.walkanim.walkanim
-G2L["43"] = Instance.new("LocalScript", G2L["41"]);
-G2L["43"]["Name"] = [[walkanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walkanim.TextBox
+G2L["43"] = Instance.new("TextBox", G2L["41"]);
+G2L["43"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["43"]["ZIndex"] = 2;
+G2L["43"]["BorderSizePixel"] = 0;
+G2L["43"]["TextWrapped"] = true;
+G2L["43"]["TextSize"] = 17;
+G2L["43"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["43"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["43"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["43"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["43"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["43"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim
 G2L["44"] = Instance.new("TextButton", G2L["d"]);
 G2L["44"]["TextWrapped"] = true;
 G2L["44"]["TextStrokeTransparency"] = 0;
@@ -829,30 +818,30 @@ G2L["44"]["Name"] = [[runanim]];
 G2L["44"]["Position"] = UDim2.new(0.08333, 0, 0.74898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.TextBox
-G2L["45"] = Instance.new("TextBox", G2L["44"]);
-G2L["45"]["TextStrokeTransparency"] = 0;
-G2L["45"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["45"]["ZIndex"] = 2;
-G2L["45"]["BorderSizePixel"] = 0;
-G2L["45"]["TextWrapped"] = true;
-G2L["45"]["TextSize"] = 17;
-G2L["45"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["45"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["45"]["PlaceholderText"] = [[(Your Target)]];
-G2L["45"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["45"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["45"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.runanim
+G2L["45"] = Instance.new("LocalScript", G2L["44"]);
+G2L["45"]["Name"] = [[runanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.runanim
-G2L["46"] = Instance.new("LocalScript", G2L["44"]);
-G2L["46"]["Name"] = [[runanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.TextBox
+G2L["46"] = Instance.new("TextBox", G2L["44"]);
+G2L["46"]["TextStrokeTransparency"] = 0;
+G2L["46"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["46"]["ZIndex"] = 2;
+G2L["46"]["BorderSizePixel"] = 0;
+G2L["46"]["TextWrapped"] = true;
+G2L["46"]["TextSize"] = 17;
+G2L["46"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["46"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["46"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["46"]["PlaceholderText"] = [[(Your Target)]];
+G2L["46"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["46"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["46"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim
 G2L["47"] = Instance.new("TextButton", G2L["d"]);
 G2L["47"]["TextWrapped"] = true;
 G2L["47"]["BorderSizePixel"] = 0;
@@ -868,30 +857,29 @@ G2L["47"]["Name"] = [[runanim]];
 G2L["47"]["Position"] = UDim2.new(0.08333, 0, 0.74898, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.TextBox
-G2L["48"] = Instance.new("TextBox", G2L["47"]);
-G2L["48"]["CursorPosition"] = -1;
-G2L["48"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["48"]["ZIndex"] = 2;
-G2L["48"]["BorderSizePixel"] = 0;
-G2L["48"]["TextWrapped"] = true;
-G2L["48"]["TextSize"] = 17;
-G2L["48"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["48"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["48"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["48"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["48"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["48"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["48"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.runanim
+G2L["48"] = Instance.new("LocalScript", G2L["47"]);
+G2L["48"]["Name"] = [[runanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.runanim
-G2L["49"] = Instance.new("LocalScript", G2L["47"]);
-G2L["49"]["Name"] = [[runanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.TextBox
+G2L["49"] = Instance.new("TextBox", G2L["47"]);
+G2L["49"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["49"]["ZIndex"] = 2;
+G2L["49"]["BorderSizePixel"] = 0;
+G2L["49"]["TextWrapped"] = true;
+G2L["49"]["TextSize"] = 17;
+G2L["49"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["49"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["49"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["49"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["49"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["49"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jumpanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jumpanim
 G2L["4a"] = Instance.new("TextButton", G2L["d"]);
 G2L["4a"]["TextWrapped"] = true;
 G2L["4a"]["BorderSizePixel"] = 0;
@@ -907,30 +895,29 @@ G2L["4a"]["Name"] = [[jumpanim]];
 G2L["4a"]["Position"] = UDim2.new(0.083, 0, 0.779, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jumpanim.TextBox
-G2L["4b"] = Instance.new("TextBox", G2L["4a"]);
-G2L["4b"]["CursorPosition"] = -1;
-G2L["4b"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["ZIndex"] = 2;
-G2L["4b"]["BorderSizePixel"] = 0;
-G2L["4b"]["TextWrapped"] = true;
-G2L["4b"]["TextSize"] = 17;
-G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4b"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["4b"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["4b"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jumpanim.runanim
+G2L["4b"] = Instance.new("LocalScript", G2L["4a"]);
+G2L["4b"]["Name"] = [[runanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.jumpanim.runanim
-G2L["4c"] = Instance.new("LocalScript", G2L["4a"]);
-G2L["4c"]["Name"] = [[runanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jumpanim.TextBox
+G2L["4c"] = Instance.new("TextBox", G2L["4a"]);
+G2L["4c"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["ZIndex"] = 2;
+G2L["4c"]["BorderSizePixel"] = 0;
+G2L["4c"]["TextWrapped"] = true;
+G2L["4c"]["TextSize"] = 17;
+G2L["4c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4c"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["4c"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["4c"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4c"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fallanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fallanim
 G2L["4d"] = Instance.new("TextButton", G2L["d"]);
 G2L["4d"]["TextWrapped"] = true;
 G2L["4d"]["BorderSizePixel"] = 0;
@@ -946,30 +933,29 @@ G2L["4d"]["Name"] = [[fallanim]];
 G2L["4d"]["Position"] = UDim2.new(0.083, 0, 0.809, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fallanim.TextBox
-G2L["4e"] = Instance.new("TextBox", G2L["4d"]);
-G2L["4e"]["CursorPosition"] = -1;
-G2L["4e"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4e"]["ZIndex"] = 2;
-G2L["4e"]["BorderSizePixel"] = 0;
-G2L["4e"]["TextWrapped"] = true;
-G2L["4e"]["TextSize"] = 17;
-G2L["4e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4e"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["4e"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["4e"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4e"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fallanim.runanim
+G2L["4e"] = Instance.new("LocalScript", G2L["4d"]);
+G2L["4e"]["Name"] = [[runanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.fallanim.runanim
-G2L["4f"] = Instance.new("LocalScript", G2L["4d"]);
-G2L["4f"]["Name"] = [[runanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fallanim.TextBox
+G2L["4f"] = Instance.new("TextBox", G2L["4d"]);
+G2L["4f"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["ZIndex"] = 2;
+G2L["4f"]["BorderSizePixel"] = 0;
+G2L["4f"]["TextWrapped"] = true;
+G2L["4f"]["TextSize"] = 17;
+G2L["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4f"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["4f"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["4f"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4f"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.swimanim
+-- StarterPack.Razor Universal.Razor Universal Client.options2.swimanim
 G2L["50"] = Instance.new("TextButton", G2L["d"]);
 G2L["50"]["TextWrapped"] = true;
 G2L["50"]["BorderSizePixel"] = 0;
@@ -985,30 +971,29 @@ G2L["50"]["Name"] = [[swimanim]];
 G2L["50"]["Position"] = UDim2.new(0.083, 0, 0.839, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.swimanim.TextBox
-G2L["51"] = Instance.new("TextBox", G2L["50"]);
-G2L["51"]["CursorPosition"] = -1;
-G2L["51"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["51"]["ZIndex"] = 2;
-G2L["51"]["BorderSizePixel"] = 0;
-G2L["51"]["TextWrapped"] = true;
-G2L["51"]["TextSize"] = 17;
-G2L["51"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["51"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
-G2L["51"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["51"]["PlaceholderText"] = [[(Your AssetID)]];
-G2L["51"]["Size"] = UDim2.new(0, 137, 0, 23);
-G2L["51"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
-G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["Text"] = [[]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.swimanim.runanim
+G2L["51"] = Instance.new("LocalScript", G2L["50"]);
+G2L["51"]["Name"] = [[runanim]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.options2.swimanim.runanim
-G2L["52"] = Instance.new("LocalScript", G2L["50"]);
-G2L["52"]["Name"] = [[runanim]];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.swimanim.TextBox
+G2L["52"] = Instance.new("TextBox", G2L["50"]);
+G2L["52"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["52"]["ZIndex"] = 2;
+G2L["52"]["BorderSizePixel"] = 0;
+G2L["52"]["TextWrapped"] = true;
+G2L["52"]["TextSize"] = 17;
+G2L["52"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["52"]["BackgroundColor3"] = Color3.fromRGB(59, 59, 59);
+G2L["52"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["52"]["PlaceholderText"] = [[(Your AssetID)]];
+G2L["52"]["Size"] = UDim2.new(0, 137, 0, 23);
+G2L["52"]["Position"] = UDim2.new(1.08984, 0, 0, 0);
+G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["52"]["Text"] = [[]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side
+-- StarterPack.Razor Universal.Razor Universal Client.Side
 G2L["53"] = Instance.new("Frame", G2L["3"]);
 G2L["53"]["ZIndex"] = 0;
 G2L["53"]["BorderSizePixel"] = 0;
@@ -1020,7 +1005,7 @@ G2L["53"]["Name"] = [[Side]];
 G2L["53"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.serverlist
+-- StarterPack.Razor Universal.Razor Universal Client.Side.serverlist
 G2L["54"] = Instance.new("TextLabel", G2L["53"]);
 G2L["54"]["TextWrapped"] = true;
 G2L["54"]["ZIndex"] = 2;
@@ -1036,12 +1021,12 @@ G2L["54"]["Name"] = [[serverlist]];
 G2L["54"]["Position"] = UDim2.new(0.03081, 0, 0.3683, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.serverlist.serverlist
+-- StarterPack.Razor Universal.Razor Universal Client.Side.serverlist.serverlist
 G2L["55"] = Instance.new("LocalScript", G2L["54"]);
 G2L["55"]["Name"] = [[serverlist]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.serverlist.name
+-- StarterPack.Razor Universal.Razor Universal Client.Side.serverlist.name
 G2L["56"] = Instance.new("TextLabel", G2L["54"]);
 G2L["56"]["TextWrapped"] = true;
 G2L["56"]["ZIndex"] = 2;
@@ -1058,7 +1043,7 @@ G2L["56"]["Name"] = [[name]];
 G2L["56"]["Position"] = UDim2.new(0.263, 0, -0.25819, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.App
+-- StarterPack.Razor Universal.Razor Universal Client.Side.App
 G2L["57"] = Instance.new("TextButton", G2L["53"]);
 G2L["57"]["TextWrapped"] = true;
 G2L["57"]["BorderSizePixel"] = 0;
@@ -1074,12 +1059,12 @@ G2L["57"]["Name"] = [[App]];
 G2L["57"]["Position"] = UDim2.new(0.10836, 0, 0.89448, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.App.copy
+-- StarterPack.Razor Universal.Razor Universal Client.Side.App.copy
 G2L["58"] = Instance.new("LocalScript", G2L["57"]);
 G2L["58"]["Name"] = [[copy]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3
 G2L["59"] = Instance.new("ScrollingFrame", G2L["53"]);
 G2L["59"]["Active"] = true;
 G2L["59"]["BorderSizePixel"] = 0;
@@ -1093,7 +1078,7 @@ G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["59"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page1
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page1
 G2L["5a"] = Instance.new("TextButton", G2L["59"]);
 G2L["5a"]["TextWrapped"] = true;
 G2L["5a"]["BorderSizePixel"] = 0;
@@ -1109,12 +1094,12 @@ G2L["5a"]["Name"] = [[page1]];
 G2L["5a"]["Position"] = UDim2.new(0.125, 0, 0.00964, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page1.page1
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page1.page1
 G2L["5b"] = Instance.new("LocalScript", G2L["5a"]);
 G2L["5b"]["Name"] = [[page1]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page2
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page2
 G2L["5c"] = Instance.new("TextButton", G2L["59"]);
 G2L["5c"]["TextWrapped"] = true;
 G2L["5c"]["BorderSizePixel"] = 0;
@@ -1130,12 +1115,12 @@ G2L["5c"]["Name"] = [[page2]];
 G2L["5c"]["Position"] = UDim2.new(0.125, 0, 0.04283, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page2.page2
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page2.page2
 G2L["5d"] = Instance.new("LocalScript", G2L["5c"]);
 G2L["5d"]["Name"] = [[page2]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page3
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page3
 G2L["5e"] = Instance.new("TextButton", G2L["59"]);
 G2L["5e"]["TextWrapped"] = true;
 G2L["5e"]["BorderSizePixel"] = 0;
@@ -1151,12 +1136,12 @@ G2L["5e"]["Name"] = [[page3]];
 G2L["5e"]["Position"] = UDim2.new(0.125, 0, 0.077, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page3.page3
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page3.page3
 G2L["5f"] = Instance.new("LocalScript", G2L["5e"]);
 G2L["5f"]["Name"] = [[page3]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.executor
+-- StarterPack.Razor Universal.Razor Universal Client.Side.executor
 G2L["60"] = Instance.new("TextButton", G2L["53"]);
 G2L["60"]["TextWrapped"] = true;
 G2L["60"]["BorderSizePixel"] = 0;
@@ -1173,12 +1158,12 @@ G2L["60"]["Name"] = [[executor]];
 G2L["60"]["Position"] = UDim2.new(0.02795, 0, 0.97002, 0);
 
 
--- StarterGui.Razor Executor.Razor Universal Client.Side.executor.executor
+-- StarterPack.Razor Universal.Razor Universal Client.Side.executor.executor
 G2L["61"] = Instance.new("LocalScript", G2L["60"]);
 G2L["61"]["Name"] = [[executor]];
 
 
--- StarterGui.Razor Executor.Razor Universal Client.InputShield
+-- StarterPack.Razor Universal.Razor Universal Client.InputShield
 G2L["62"] = Instance.new("Frame", G2L["3"]);
 G2L["62"]["Visible"] = false;
 G2L["62"]["Active"] = true;
@@ -1191,12 +1176,12 @@ G2L["62"]["Name"] = [[InputShield]];
 G2L["62"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.Razor Executor.Razor Universal Client.UISizeConstraint
+-- StarterPack.Razor Universal.Razor Universal Client.UISizeConstraint
 G2L["63"] = Instance.new("UISizeConstraint", G2L["3"]);
 G2L["63"]["MaxSize"] = Vector2.new(500, 500);
 
 
--- StarterGui.Razor Executor.Initialization Script
+-- StarterPack.Razor Universal.Initialization Script
 local function C_2()
 local script = G2L["2"];
 	local Players = game:GetService("Players")
@@ -1305,7 +1290,7 @@ local script = G2L["2"];
 	)
 end;
 task.spawn(C_2);
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Close.close
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Close.close
 local function C_8()
 local script = G2L["8"];
 	local textLabel = script.Parent
@@ -1360,7 +1345,7 @@ local script = G2L["8"];
 	end)
 end;
 task.spawn(C_8);
--- StarterGui.Razor Executor.Razor Universal Client.upperbar.Minimize.min
+-- StarterPack.Razor Universal.Razor Universal Client.upperbar.Minimize.min
 local function C_a()
 local script = G2L["a"];
 	local TweenService = game:GetService("TweenService")
@@ -1429,7 +1414,7 @@ local script = G2L["a"];
 	end)
 end;
 task.spawn(C_a);
--- StarterGui.Razor Executor.Razor Universal Client.options2.esp.esp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.esp.esp
 local function C_f()
 local script = G2L["f"];
 	local button = script.Parent
@@ -1607,7 +1592,7 @@ local script = G2L["f"];
 	end)
 end;
 task.spawn(C_f);
--- StarterGui.Razor Executor.Razor Universal Client.options2.tracers.tracers
+-- StarterPack.Razor Universal.Razor Universal Client.options2.tracers.tracers
 local function C_11()
 local script = G2L["11"];
 	local Players = game:GetService("Players")
@@ -1745,7 +1730,7 @@ local script = G2L["11"];
 	end)
 end;
 task.spawn(C_11);
--- StarterGui.Razor Executor.Razor Universal Client.options2.fly.fly
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fly.fly
 local function C_13()
 local script = G2L["13"];
 	local Players = game:GetService("Players")
@@ -1848,7 +1833,7 @@ local script = G2L["13"];
 	end
 end;
 task.spawn(C_13);
--- StarterGui.Razor Executor.Razor Universal Client.options2.walk speed.walkspeed
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walk speed.walkspeed
 local function C_15()
 local script = G2L["15"];
 	local button = script.Parent
@@ -1903,7 +1888,7 @@ local script = G2L["15"];
 	end)
 end;
 task.spawn(C_15);
--- StarterGui.Razor Executor.Razor Universal Client.options2.jump power.jumppower
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jump power.jumppower
 local function C_18()
 local script = G2L["18"];
 	local button = script.Parent
@@ -1958,7 +1943,7 @@ local script = G2L["18"];
 	end)
 end;
 task.spawn(C_18);
--- StarterGui.Razor Executor.Razor Universal Client.options2.teleport.teleport
+-- StarterPack.Razor Universal.Razor Universal Client.options2.teleport.teleport
 local function C_1b()
 local script = G2L["1b"];
 	local button = script.Parent
@@ -2033,7 +2018,7 @@ local script = G2L["1b"];
 	end)
 end;
 task.spawn(C_1b);
--- StarterGui.Razor Executor.Razor Universal Client.options2.fling.fling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fling.fling
 local function C_1e()
 local script = G2L["1e"];
 	local R = game:GetService("RunService")
@@ -2162,7 +2147,7 @@ local script = G2L["1e"];
 	end)
 end;
 task.spawn(C_1e);
--- StarterGui.Razor Executor.Razor Universal Client.options2.void.void
+-- StarterPack.Razor Universal.Razor Universal Client.options2.void.void
 local function C_21()
 local script = G2L["21"];
 	local button = script.Parent
@@ -2177,7 +2162,7 @@ local script = G2L["21"];
 	end)
 end;
 task.spawn(C_21);
--- StarterGui.Razor Executor.Razor Universal Client.options2.noclip.noclip
+-- StarterPack.Razor Universal.Razor Universal Client.options2.noclip.noclip
 local function C_24()
 local script = G2L["24"];
 	local Players = game:GetService("Players")
@@ -2246,7 +2231,7 @@ local script = G2L["24"];
 	end)
 end;
 task.spawn(C_24);
--- StarterGui.Razor Executor.Razor Universal Client.options2.joinplayer.joinplayer
+-- StarterPack.Razor Universal.Razor Universal Client.options2.joinplayer.joinplayer
 local function C_27()
 local script = G2L["27"];
 	local button = script.Parent
@@ -2261,7 +2246,7 @@ local script = G2L["27"];
 	end)
 end;
 task.spawn(C_27);
--- StarterGui.Razor Executor.Razor Universal Client.options2.godmode.godmode
+-- StarterPack.Razor Universal.Razor Universal Client.options2.godmode.godmode
 local function C_2b()
 local script = G2L["2b"];
 	local button = script.Parent
@@ -2290,7 +2275,7 @@ local script = G2L["2b"];
 	
 end;
 task.spawn(C_2b);
--- StarterGui.Razor Executor.Razor Universal Client.options2.xray.xray
+-- StarterPack.Razor Universal.Razor Universal Client.options2.xray.xray
 local function C_2d()
 local script = G2L["2d"];
 	local button = script.Parent
@@ -2403,22 +2388,96 @@ local script = G2L["2d"];
 	updateText()
 end;
 task.spawn(C_2d);
--- StarterGui.Razor Executor.Razor Universal Client.options2.bring.bring
+-- StarterPack.Razor Universal.Razor Universal Client.options2.bring.bring
 local function C_2f()
 local script = G2L["2f"];
 	local button = script.Parent
-	local StarterGui = game:GetService("StarterGui")
+	local textBox = button:FindFirstChild("TextBox") or button.Parent:FindFirstChild("TextBox")
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local localPlayer = Players.LocalPlayer
+	
+	local function stopMovement(connection, bodyPos)
+		if connection then connection:Disconnect() end
+		if bodyPos and bodyPos.Parent then bodyPos:Destroy() end
+	end
 	
 	button.MouseButton1Click:Connect(function()
-		StarterGui:SetCore("SendNotification", {
-			Title = "Error",
-			Text = "This feature is not finished, and will be added later",
-			Duration = 3
-		})
+		local targetName = textBox.Text
+		local target = Players:FindFirstChild(targetName)
+		if not target or not target.Character then
+			warn("Player not found: " .. targetName)
+			return
+		end
+	
+		local char = localPlayer.Character
+		local hrp = char and char:FindFirstChild("HumanoidRootPart")
+		if not hrp then return end
+	
+		local targetHRP = target.Character:FindFirstChild("HumanoidRootPart")
+		if not targetHRP then return end
+	
+		-- List tools in backpack
+		local tools = {}
+		local backpack = localPlayer.Backpack
+		for _, item in ipairs(backpack:GetChildren()) do
+			if item:IsA("Tool") then
+				table.insert(tools, item.Name)
+			end
+		end
+	
+		if #tools == 0 then
+			warn("No tools in backpack")
+			return
+		end
+	
+		-- Ask which tool to use
+		local toolName = nil
+		if #tools == 1 then
+			toolName = tools[1]
+		else
+			-- Simple prompt using a dialog or just pick first
+			-- In a real scenario you'd use a GUI, but here we use the first tool
+			toolName = tools[1]
+		end
+	
+		-- Equip the tool
+		local tool = backpack:FindFirstChild(toolName)
+		if tool then
+			local humanoid = char and char:FindFirstChild("Humanoid")
+			if humanoid then
+				humanoid:EquipTool(tool)
+			end
+		end
+	
+		local bodyPos = Instance.new("BodyPosition")
+		bodyPos.MaxForce = Vector3.new(10000, 10000, 10000)
+		bodyPos.P = 3000
+		bodyPos.D = 50
+		bodyPos.Position = targetHRP.Position + Vector3.new(0, 3, 0)
+		bodyPos.Parent = hrp
+	
+		local connection
+		connection = RunService.Heartbeat:Connect(function()
+			targetHRP = target.Character and target.Character:FindFirstChild("HumanoidRootPart")
+			if not targetHRP or not hrp.Parent then
+				stopMovement(connection, bodyPos)
+				return
+			end
+			bodyPos.Position = targetHRP.Position + Vector3.new(0, 3, 0)
+			if (hrp.Position - targetHRP.Position).Magnitude < 4 then
+				stopMovement(connection, bodyPos)
+			end
+		end)
+	
+		task.delay(10, function()
+			stopMovement(connection, bodyPos)
+		end)
 	end)
 end;
 task.spawn(C_2f);
--- StarterGui.Razor Executor.Razor Universal Client.options2.goto pos.goto
+-- StarterPack.Razor Universal.Razor Universal Client.options2.goto pos.goto
 local function C_32()
 local script = G2L["32"];
 	local button = script.Parent
@@ -2489,7 +2548,7 @@ local script = G2L["32"];
 	end)
 end;
 task.spawn(C_32);
--- StarterGui.Razor Executor.Razor Universal Client.options2.click2tp.click2tp
+-- StarterPack.Razor Universal.Razor Universal Client.options2.click2tp.click2tp
 local function C_35()
 local script = G2L["35"];
 	local button = script.Parent
@@ -2548,7 +2607,7 @@ local script = G2L["35"];
 	end)
 end;
 task.spawn(C_35);
--- StarterGui.Razor Executor.Razor Universal Client.options2.spectate.spectate
+-- StarterPack.Razor Universal.Razor Universal Client.options2.spectate.spectate
 local function C_38()
 local script = G2L["38"];
 	local R = game:GetService("RunService")
@@ -2684,7 +2743,7 @@ local script = G2L["38"];
 	end)
 end;
 task.spawn(C_38);
--- StarterGui.Razor Executor.Razor Universal Client.options2.rejoin.rejoin
+-- StarterPack.Razor Universal.Razor Universal Client.options2.rejoin.rejoin
 local function C_3b()
 local script = G2L["3b"];
 	local TeleportService = game:GetService("TeleportService")
@@ -2703,7 +2762,7 @@ local script = G2L["3b"];
 	button.MouseButton1Click:Connect(rejoinSameServer)
 end;
 task.spawn(C_3b);
--- StarterGui.Razor Executor.Razor Universal Client.options2.antifling.antifling
+-- StarterPack.Razor Universal.Razor Universal Client.options2.antifling.antifling
 local function C_3d()
 local script = G2L["3d"];
 	local button = script.Parent
@@ -2757,9 +2816,9 @@ local script = G2L["3d"];
 	end)
 end;
 task.spawn(C_3d);
--- StarterGui.Razor Executor.Razor Universal Client.options2.animpack.animpack
-local function C_40()
-local script = G2L["40"];
+-- StarterPack.Razor Universal.Razor Universal Client.options2.animpack.animpack
+local function C_3f()
+local script = G2L["3f"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2771,10 +2830,10 @@ local script = G2L["40"];
 		})
 	end)
 end;
-task.spawn(C_40);
--- StarterGui.Razor Executor.Razor Universal Client.options2.walkanim.walkanim
-local function C_43()
-local script = G2L["43"];
+task.spawn(C_3f);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.walkanim.walkanim
+local function C_42()
+local script = G2L["42"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2786,10 +2845,10 @@ local script = G2L["43"];
 		})
 	end)
 end;
-task.spawn(C_43);
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.runanim
-local function C_46()
-local script = G2L["46"];
+task.spawn(C_42);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.runanim
+local function C_45()
+local script = G2L["45"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2801,10 +2860,10 @@ local script = G2L["46"];
 		})
 	end)
 end;
-task.spawn(C_46);
--- StarterGui.Razor Executor.Razor Universal Client.options2.runanim.runanim
-local function C_49()
-local script = G2L["49"];
+task.spawn(C_45);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.runanim.runanim
+local function C_48()
+local script = G2L["48"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2816,10 +2875,10 @@ local script = G2L["49"];
 		})
 	end)
 end;
-task.spawn(C_49);
--- StarterGui.Razor Executor.Razor Universal Client.options2.jumpanim.runanim
-local function C_4c()
-local script = G2L["4c"];
+task.spawn(C_48);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.jumpanim.runanim
+local function C_4b()
+local script = G2L["4b"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2831,10 +2890,10 @@ local script = G2L["4c"];
 		})
 	end)
 end;
-task.spawn(C_4c);
--- StarterGui.Razor Executor.Razor Universal Client.options2.fallanim.runanim
-local function C_4f()
-local script = G2L["4f"];
+task.spawn(C_4b);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.fallanim.runanim
+local function C_4e()
+local script = G2L["4e"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2846,10 +2905,10 @@ local script = G2L["4f"];
 		})
 	end)
 end;
-task.spawn(C_4f);
--- StarterGui.Razor Executor.Razor Universal Client.options2.swimanim.runanim
-local function C_52()
-local script = G2L["52"];
+task.spawn(C_4e);
+-- StarterPack.Razor Universal.Razor Universal Client.options2.swimanim.runanim
+local function C_51()
+local script = G2L["51"];
 	local button = script.Parent
 	local StarterGui = game:GetService("StarterGui")
 	
@@ -2861,8 +2920,8 @@ local script = G2L["52"];
 		})
 	end)
 end;
-task.spawn(C_52);
--- StarterGui.Razor Executor.Razor Universal Client.Side.serverlist.serverlist
+task.spawn(C_51);
+-- StarterPack.Razor Universal.Razor Universal Client.Side.serverlist.serverlist
 local function C_55()
 local script = G2L["55"];
 	local Players = game:GetService("Players")
@@ -2927,7 +2986,7 @@ local script = G2L["55"];
 	updateList()
 end;
 task.spawn(C_55);
--- StarterGui.Razor Executor.Razor Universal Client.Side.App.copy
+-- StarterPack.Razor Universal.Razor Universal Client.Side.App.copy
 local function C_58()
 local script = G2L["58"];
 	local button = script.Parent
@@ -2969,7 +3028,7 @@ local script = G2L["58"];
 	end)
 end;
 task.spawn(C_58);
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page1.page1
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page1.page1
 local function C_5b()
 local script = G2L["5b"];
 	local button = script.Parent
@@ -2984,7 +3043,7 @@ local script = G2L["5b"];
 	end)
 end;
 task.spawn(C_5b);
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page2.page2
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page2.page2
 local function C_5d()
 local script = G2L["5d"];
 	local button = script.Parent
@@ -2999,7 +3058,7 @@ local script = G2L["5d"];
 	end)
 end;
 task.spawn(C_5d);
--- StarterGui.Razor Executor.Razor Universal Client.Side.options3.page3.page3
+-- StarterPack.Razor Universal.Razor Universal Client.Side.options3.page3.page3
 local function C_5f()
 local script = G2L["5f"];
 	local button = script.Parent
@@ -3014,7 +3073,7 @@ local script = G2L["5f"];
 	end)
 end;
 task.spawn(C_5f);
--- StarterGui.Razor Executor.Razor Universal Client.Side.executor.executor
+-- StarterPack.Razor Universal.Razor Universal Client.Side.executor.executor
 local function C_61()
 local script = G2L["61"];
 	local button = script.Parent
